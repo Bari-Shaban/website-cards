@@ -1,0 +1,155 @@
+
+/* navbar */
+.nav-color {
+    background-color: #fcd232!important;
+    /* border-bottom: #fcd232; */
+    box-shadow: 0 0 10px 0 #a38921;
+}
+.nav-link {
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.nav-link:hover {
+    color:#b6213b
+}
+.bi-filter-right {
+    font-size: 50px;
+    color: black;
+}
+.img-logo {
+    max-height: 50px;
+    max-width: 50px;
+}
+.logo-text {
+    font-size: 12px;
+}
+@media (max-width:991px) {
+    .vraboti-btn {
+        margin: 16px 0;
+        display: grid;
+    }
+    .nav-link {
+        color: white!important;
+    }
+}
+
+/* main section */
+.bg-logo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(images/Logo1.png);
+    background-size:auto;
+    
+}
+.morph {
+    height: calc(100vh - 92.7px);
+}
+
+h1 {
+    color: #fcd232!important;
+}   
+
+@media (min-width:2560px) {
+    h1 {
+        font-size: 160px!important;
+    }
+}
+@media (min-width:2560px) {
+    bg-logo {
+        background-size:auto!important;
+       
+    }
+}
+/* btnFilters */
+.btnFilter {
+    width: 100%;
+    display: flex;
+    padding: 20px 30px;
+    font-size: 16px;
+    border-bottom: 1px solid grey;
+}
+@media (max-width:1440px){
+    .btnFilter {
+        font-size: 14px;
+    }
+}
+@media (max-width:1024px) {
+    .btnFilter {
+        font-size: 16px;
+    }
+}
+.btnFilter:hover, .btnFilter:focus {
+    background-color: #b6213b!important;
+}
+.filters button:focus {
+    color: black!important;
+}
+.btnFilter span {
+    color: #212529!important;
+}
+.btnFilter:hover span {
+    color: white!important;
+}
+.btnFilter:focus span i{
+    color: black!important;
+}
+
+/* card section */
+
+.card {
+    transition: all .3s ease;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    width: 100%;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4), 0 4px 8px rgba(0,0,0,0.2);
+}
+.img-zoom {
+    overflow: hidden;
+}
+.img-zoom img {
+    transition: all .3s ease;
+}
+.img-zoom:hover img {
+    transform: scale(1.08);
+    
+}
+.bg-card {
+    background-color: #fcd232!important;
+}
+.card-body span {
+    font-size: 14px;
+    
+}
+.space {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* footer */
+@media (max-width:425px) {
+    footer p{
+        font-size: 16px!important;
+    }
+}
+
+/* vraboti student page */
+.form-height {
+    height: 80vh;
+    background-color: #fcd232!important;
+}
+.option-display {
+    display: none;
+}
+
+.btn-height {
+    padding: 5px!important;
+}
+
+/* clients.php page */
+
+.bg-tab {
+    background-color: #fcd232 !important;
+}
